@@ -1,0 +1,28 @@
+.cards_div{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.card_input, .card_summary_div{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card_btns{
+    margin-left: auto;
+    margin-right: auto;
+}
+.lock_open{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 40px;
+}
+.ellipsis{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding: 10px 5px;
+}

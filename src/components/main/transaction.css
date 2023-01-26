@@ -1,0 +1,77 @@
+.transaction_div{
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.add_funds_btn{
+    font-size: 16px;
+    text-align: center;
+    font: normal normal medium 16px/19px Roboto;
+    color: #002554;
+    background: #F5F7FA 0% 0% no-repeat padding-box;
+    padding: 2% 5%;
+    border: 0px;
+}
+.active_add_funds_btn{
+    border: 1px solid #2DCCD3;
+}
+.add_funds_btn:focus {
+    outline: 1px solid #2DCCD3 !important;
+    border: 1px solid #2DCCD3 !important;
+}
+.transfer_btn{
+    border: 0px;
+    margin-left: 24px;
+}
+.send_submit_btn{
+    width: 80%;
+    height: 40px;
+    background: #DBE3EB 0% 0% no-repeat padding-box;
+    float: right;
+    margin-top: 25px;
+    border: 0px;
+    color: "#FFFFFF";
+    border-radius: 5px;
+}
+.funds_letter{
+    color: #002554;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: 16px;
+}
+.card_icon{
+    width: fit-content;
+    position: relative;
+    top: -30px;
+    left: 85%;
+}
+@media all and (max-width: 451px) {
+    .transfer_btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+.message_area{
+    width: 100%;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+    border-radius: 4px;
+    padding: 10px;
+}
+.message_area:focus{
+    outline: 1px solid #E2E2E2;
+}
+.label-className {
+    width: 100% !important;
+    height: 38px;
+}
+.input-className {
+    width: 100%;
+    height: 38px;
+    padding: 8.6px 8.6px 8.6px 26px !important;
+    border-radius: 5px !important;
+    box-shadow: inset 1px 1px 3px #00000029;
+    border: 1px solid #E2E2E2;
+}

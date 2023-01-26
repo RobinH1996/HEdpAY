@@ -1,0 +1,35 @@
+.wallet_div{
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wallet_left_title, .wallet_amount{
+    color: #002554;
+    font-size: 24px;
+    font-weight: 900;
+}
+.wallet_right_title{
+    float: right;
+}
+.wallet_right_title{
+    margin-top: -58px;
+}
+.wallet_updated_date{
+    font-size: 10px;
+    color: #999999;
+    margin-top: -25px;
+    text-align: right;
+}
+.wallet_hdp, .wallet_btc, .wallet_eth, .wallet_usdt{
+    min-height: 119px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DBE3EB;
+    border-radius: 6px;
+    padding: 14px;
+}
+.padding_left_none{
+    padding-left: 0px;
+}
+.padding_right_none{
+    padding-right: 0px;
+}
